@@ -430,4 +430,17 @@
         .social-icon.linkedin { background-color: #0284c7; }
         .social-icon.dribbble { background-color: #ec4899; }
 
-       
+       @media (max-width: 352px) {
+        header{
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        nav ul{
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        
+       }
